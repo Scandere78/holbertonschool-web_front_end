@@ -7,12 +7,12 @@ body {
 a {
     color: #161616;
 }
-visually-hiden {
+.visually-hiden {
    display: none;
 }
-card-category {
+.card-category {
     color: #d73953;
 }
-section-tagline {
+.section-tagline {
     color: #d73953;
 }

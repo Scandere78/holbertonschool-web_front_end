@@ -11,7 +11,7 @@ html {
     --color-dark-grey: #353535;
     --text-color: var(--color-black);
     --font-family-base: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    --font-family-title: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    --font-family-title: Raleway, "Helvetica Neue", Helvetica, Arial, sans-serif;
     --font-size-small: 1.2rem;
     --font-size-medium: 1.6rem;
     --font-size-large: 1.8rem;
@@ -64,7 +64,7 @@ a {
 .section-tagline {
     font-family: var(--font-family-title);
     text-transform: var(--section-tagline-transform);
-    font-weight: var(--font-weight-bold)
+    font-weight: var(--font-weight-bold);
 }
 
 .section-header {

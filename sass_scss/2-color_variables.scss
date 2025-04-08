@@ -1,10 +1,12 @@
-/* Define color variables */
-$color: #3D3D3D;
+$text-color: #3D3D3D;
 $background-color: #6D6D6D;
 
-body,
+body {
+  color: $text-color;
+  background-color: $background-color;
+}
 p {
-  color: $color;
+  color: $text-color;
 }
 h2 {
   background-color: $background-color;

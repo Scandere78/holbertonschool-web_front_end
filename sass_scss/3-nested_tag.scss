@@ -1,7 +1,17 @@
+<<<<<<< HEAD
 @mixin my-margin($property)
 {
     margin-left: $property;
     margin-right: $property;
+=======
+body {
+    margin: 0px;
+    padding: 0px;
+
+    p {
+        margin: 10px;
+    }
+>>>>>>> c0e7bfcce4117c2e91e52200cd344d246a770746
 }
 
 

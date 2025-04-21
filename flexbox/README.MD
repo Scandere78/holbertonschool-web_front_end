@@ -1,27 +1,27 @@
-Resources
-Read or watch:
+# Projet Techium
 
-A Complete Guide to Flexbox | CSS-Tricks
-Flexbox Froggy - A game for learning CSS flexbox
-Flexbox Defense
-Flexbox Cheatsheet
-CSS Flexible Box Layout - CSS: Cascading Style Sheets | MDN
-afonsopacifer/awesome-flexbox: A curated list of CSS Flexible Box Layout Module or only Flexbox.
-Build with Flexbox
-Flexplorer
-CSS Flexible Box Layout Module Level 1
-FLEX: A simple visual cheatsheet for flexbox
-Learning Objectives
-At the end of this project, you are expected to be able to explain to anyone, without the help of Google:
+Ce projet est une introduction à l'utilisation de Flexbox en CSS pour créer des mises en page web réactives. Il comprend plusieurs tâches visant à convertir une mise en page basée sur des flottants en une mise en page utilisant Flexbox.
 
-What is Flexbox?
-How to convert float positioning to a flex display
-How to horizontally and vertically align elements using Flexbox
-The difference between the main and cross axes
-Properties that work on flex elements vs flex container
-Shorthands for flex
-How to create a new page with flex in mind
-Requirements
-All your files should end with a new line
-A README.md file, at the root of the folder of the project is mandatory
-You are not allowed to install, import or use external libraries. This website must be build with only HTML/CSS. No NodeJS, React, VueJS, Bootstrap, etc.
+## Fichiers du Projet
+
+- `index.html` : Fichier HTML principal de la page d'accueil.
+- `0-styles.css` : Fichier CSS principal pour styliser la page d'accueil.
+- `images/` : Dossier contenant les images utilisées dans le projet.
+- `article.html` : Fichier HTML pour une page d'article.
+- `00-styles.css` : Fichier CSS pour styliser la page d'article.
+
+## Instructions
+
+1. **Tâche 1** : Convertir la mise en page en utilisant Flexbox.
+   - Ajouter `display: flex;` à la classe `.row`.
+   - Supprimer la déclaration `row::after`.
+   - Supprimer `float: left;` dans les colonnes.
+
+2. **Tâche 2** : (Description de la tâche suivante, si applicable).
+
+## Ressources Utiles
+
+- [A Complete Guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
+- [Flexbox Froggy](https://flexboxfroggy.com/)
+- [Flexbox Defense](http://www.flexboxdefense.com/)
+- [MDN Web Docs - Flexbox](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout)

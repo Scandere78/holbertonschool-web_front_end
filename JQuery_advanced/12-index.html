@@ -22,16 +22,19 @@
             }
 
             function deletePost(id) {
-                $.ajax({
-                    url: `http://localhost:3000/posts/${id}`,
-                    method: 'DELETE',
-                    success: function() {
-                        $('#row-' + id).remove();
-                    },
-                    error: function() {
-                        alert('Post was not deleted');
-                    }
-                });
+               $.ajax({
+    url: 'http://localhost:3000/posts',
+    method: 'POST',
+    contentType: 'application/json',
+    data: JSON.stringify(data),
+    success: function(response) {
+        addPostRow(response);
+    },
+    error: function() {
+        alert('Error sending the POST query');
+    }
+});
+
             }
 
             function listPosts() {
